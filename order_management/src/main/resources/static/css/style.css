@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.main-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.subtitle{
+    color: #cbd5e1;
+}
+
+.dashboard-card,
+.form-card,
+.table-card{
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.feature-card{
+    background: rgba(255,255,255,0.06);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.feature-card:hover{
+    transform: translateY(-5px);
+}
+
+.btn-custom{
+    background: #38bdf8;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover{
+    background: #0ea5e9;
+    color: white;
+}
+
+.form-control,
+.form-select{
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.table{
+    color: white;
+}
+
+.table thead{
+    background: rgba(255,255,255,0.1);
+}
+
+.table-hover tbody tr:hover{
+    background: rgba(255,255,255,0.08);
+}
+
+.stats-card{
+    background: rgba(255,255,255,0.08);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.stats-card:hover{
+    transform: translateY(-5px);
+}
+
+.pending-card{
+    border-left: 5px solid #facc15;
+}
+
+.delivered-card{
+    border-left: 5px solid #22c55e;
+}
+
+.revenue-card{
+    border-left: 5px solid #38bdf8;
+}
